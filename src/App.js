@@ -8,8 +8,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Udemy React - Assignment 1</h1>
-        <UserInput/>
-        <UserOutput/>
+        <UserOutput username="krossmaskinen"/>
+        <UserOutput username="quantumblaster"/>
+        <UserOutput username="gucka87"/>
       </div>
     );
   }
